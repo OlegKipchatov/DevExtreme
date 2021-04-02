@@ -1,5 +1,6 @@
 import { join, resolve, dirname } from 'path';
 import { promises } from 'fs';
+import { FileInfo, ThemesMetadata } from '../../src/types/types';
 
 import MetadataCollector from '../../src/metadata/collector';
 

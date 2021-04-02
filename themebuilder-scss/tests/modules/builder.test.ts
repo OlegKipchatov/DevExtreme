@@ -5,6 +5,7 @@ import { buildTheme } from '../../src/modules/builder';
 import commands from '../../src/modules/commands';
 // eslint-disable-next-line import/extensions
 import { version, metadata } from '../../src/data/metadata/dx-theme-builder-metadata';
+import { ConfigSettings } from '../../src/types/types';
 
 declare let DART_TEST: boolean;
 

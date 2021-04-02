@@ -1,3 +1,5 @@
+import { ThemesMetadata, FlatStylesDependencies } from '../../src/types/types';
+
 export const metadata: ThemesMetadata = {
   generic: [
     {

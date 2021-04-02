@@ -1,5 +1,11 @@
 import net from 'net';
 import Logger from './logger';
+import {
+  SocketEventListener,
+  DartCompilerResult,
+  DartCompilerConfig,
+  DartCompilerKeepAliveConfig,
+} from '../types/types';
 
 export default class DartClient {
   serverPort = 22000;

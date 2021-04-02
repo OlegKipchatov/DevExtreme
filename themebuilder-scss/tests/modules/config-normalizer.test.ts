@@ -1,5 +1,6 @@
 import normalizeConfig from '../../src/modules/config-normalizer';
 import commands from '../../src/modules/commands';
+import { ConfigSettings } from '../../src/types/types';
 
 describe('Cli arguments normalizer', () => {
   test('Commands stay unchanged', () => {

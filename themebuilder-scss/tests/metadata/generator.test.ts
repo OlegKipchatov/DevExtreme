@@ -1,4 +1,5 @@
 import MetadataGenerator from '../../src/metadata/generator';
+import { MetaItem } from '../../src/types/types';
 
 const generator = new MetadataGenerator();
 

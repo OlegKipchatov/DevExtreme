@@ -1,6 +1,7 @@
 import { join } from 'path';
 import fs from 'fs';
 import WidgetsHandler from '../../src/modules/widgets-handler';
+import { WidgetItem, WidgetHandlerResult } from '../../src/types/types';
 
 const mockError = new Error('File not found');
 jest.mock('fs', () => ({

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import cabinet from 'filing-cabinet';
 import DependencyCollector from '../../src/metadata/dependency-collector';
+import { SyntaxTree, FlatStylesDependencies, ScriptsDependencyTree } from '../../src/types/types';
 
 const simpleDependencies: ScriptsDependencyTree = {
   dependencies: {
